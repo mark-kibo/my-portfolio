@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./main.css">
+    <script src="https://kit.fontawesome.com/4ea38d57d2.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+        <div class="header">
+           
+            <div class="navbar">
+                <nav>
+                    <img src="./images/M(1).png" alt="" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <p>backend developer</p>
+                    <h1>Hi, I'm <span>Mark</span><br> A backend developer.</h1>
+                </div>
+                
+            </div>
+          
+
+        </div>
+<!-- About section -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./images/WhatsApp_Image_2023-07-08_at_13.51.47-removebg-preview.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque similique perferendis commodi pariatur, et
+                    nobis alias beatae tenetur animi veniam expedita, quos dolores assumenda, doloremque harum! Voluptas,
+                    numquam! Blanditiis, corporis!</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>API DEVELEOPMENT</span><br> Developing api's  using django rest framework</li>
+                            <li><span>WEB DEVELOPER</span><br> Developing webs apps using django</li>
+                            <li><span>DATA ANALYST</span><br> Data analysis using python</li>
+                            <li><span>BACKEND DEVELOPER</span><br> Developing backend apps using node js and django</li>
+                            <li><span>OTHER</span><br>SQL, Database management</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>TUNT</span> <span> 2023-present</span><br>TUNT Backend developer.Developing apis for the TUNT application</li>
+                            <li><span> MINISTRY Of ICT 2022</span><br>Worked as aan IT support.Managed network infrastructure in the organization</li>
+                            <li> <span>GAMEZONE REPAIRS AND MAINTENANCE 2023-PRESENT</span><br>Worked as an IT consultant.Maintained and repaired computer software and hardware</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>COMPUTER SCIENCE</span><span> 2019-2023</span> <br>The Cooperative university of kenya  </li>
+                            <li><span>DATA ANALYSIS</span> <span> 2023</span><br>Alx Udacity </li>
+                            <li><span>INTERNATIONAL DIGITAL COMPUTER LITERACY</span> <span> 2019</span><br>East African Institute of Certified studies</li>
+                            <li><span>KCSE</span> <span> 2014-2018</span> <br>The Nyahururu High school</li>
+                            <li><span>KCPE</span> <span>2006-2014</span> <br>Fairlwans Primary School</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- My projects -->
+    <div id="projects">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="project-list">
+                <div class="work">
+                    <img src="./images/Asana vs_ Trello vs.jpg" alt="">
+                    <div class="layer">
+                        <h3>Attachee management system</h3>
+                        <p>The Attaché Management System is a web application built using the Django framework, designed to streamline and automate the management of attachés within an organization. This system provides a centralized platform for managing attaché profiles, assignments, and related information efficiently.</p>
+                        <a href=""><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./images/Smart Parking Solutions.png" alt="">
+                    <div class="layer">
+                        <h3>Parking reservation system</h3>
+                        <p>A parking reservation system created using Django is a web application that allows users to reserve parking spaces in advance. It provides a convenient and efficient way for users to secure parking spots, eliminating the hassle of searching for parking upon arrival.</p>
+                        <a href=""><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./images/Gallery of Hoki Museum _ Nikken Sekkei - 19.jpg" alt="">
+                    <div class="layer">
+                        <h3>Art gallery management system</h3>
+                        <p>An art gallery management system is a software application designed to streamline and automate various tasks involved in the management of an art gallery. It provides a centralized platform to efficiently manage the gallery's operations, including artwork inventory, artist information, sales, exhibitions, and customer interactions. Here is a description of the key features and functionalities typically found in an art gallery management system</p>
+                        <a href=""><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                
+            </div>
+            <a href="https://github.com/mark-kibo" class="btn">See More</a>
+        </div>
+    </div>
+    <!-- contact -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-col-1">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>kibochamark@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>+25476347882</p>
+                    <div class="social-links">
+                        <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-square-twitter"></i></a>
+                        <a href=""><i class="fa-brands fa-square-whatsapp"></i></a>
+                        <a href=""><i class="fa-brands fa-square-github"></i></a>
+                    </div>
+                    <a href="./documents/Curriculum Vitae - Mark Kibocha.pdf"  class="btn btn-2">Download CV</a>
+                </div>
+                <div class="contact-col-2">
+                    <form action="">
+                        <input type="text" name="name" placeholder="name" required>
+                        <input type="email" name="email" id="" placeholder="your email">
+                        <textarea name="message"   rows="6" placeholder="your message"></textarea>
+                        <button type="submit" class="btn btn-2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div id="copyright">
+            <p>copyright <i class="fa-solid fa-copyright"></i> Mark kibocha designs</p>
+        </div>
+    </div>
+    <!-- <h1>About me</h1>
+  
+        <div class="">
+            <div class="skills">
+                <a href="">SKills</a>
+                <h3>2016</h3>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <h3>2016</h3>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <h3>2016</h3>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="Experience">
+                <a href="">Experience</a>
+                <h3>2016</h3>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <h3>2016</h3>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <h3>2016</h3>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+
+            <div class="Education">
+                <a href="">Education</a>
+                <h3>2016</h3>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <h3>2016</h3>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <h3>2016</h3>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+        </div>
+
+    <section id="projects">
+        <div class="project1">
+            <img src="" alt="">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam tenetur autem impedit quibusdam quasi
+                neque distinctio qui praesentium magnam perspiciatis!</p>
+        </div>
+        <div class="project1">
+            <img src="" alt="">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam tenetur autem impedit quibusdam quasi
+                neque distinctio qui praesentium magnam perspiciatis!</p>
+        </div>
+    </section>
+
+    <section id="footer">
+        <div class="contact-heading">
+            <div>
+                <h1>Contact Me</h1>
+                <h3>contact@example.com</h3>
+                <h3>076347882</h3>
+                <div class="socials">
+                    <i>facebook</i>
+                    <i>twitter</i>
+                    <i>instagram</i>
+                    <i>linkedin</i>
+                </div>
+                <a href="" download>Download cv</a>
+            </div>
+
+            <div class="contact-form">
+                <form action="">
+                    <label for="username">Username</label>
+                    <input type="text" name="" id="username">
+                    <label for="email">Email</label>
+                    <input type="email" name="" id="email">
+                    <label for="message">Message</label>
+                    <input type="text" id="message">
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </section> -->
+
+    <script>
+        var tablinks= document.getElementsByClassName('tab-links');
+        var tabcontents = document.getElementsByClassName('tab-contents');
+
+        const opentab =(tabname)=>{
+            for(tablink of tablinks){
+                tablink.classList.remove('active-link');
+            } 
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove('active-tab');
+            }  
+            event.currentTarget.classList.add('active-link');
+            document.getElementById(tabname).classList.add('active-tab');
+        }
+    </script>
+    <script>
+        var sidemenu=document.getElementById('sidemenu');
+        const openmenu=()=>{
+            sidemenu.style.right= "0";
+        }
+        const closemenu=()=>{
+            sidemenu.style.right= "-200px";
+        }
+    </script>
+
+</body>
+
+</html>
