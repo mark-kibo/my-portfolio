@@ -32,7 +32,7 @@ The portfolio website is built using the following technologies and tools:
 - HTML5 and CSS3: For the structure, layout, and styling of the web pages.
 - JavaScript: To add interactivity and dynamic elements to the website.
 - Bootstrap or another CSS framework: To enhance responsiveness and ensure compatibility across different devices and screen sizes.
-- [Insert any additional technologies or libraries specific to your implementation.]
+
 
 ## Setup Instructions
 
